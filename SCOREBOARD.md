@@ -57,9 +57,9 @@
 6 | SafeXackers | 3000
 7-8 | sc32 | 1950
 7-8 | Cerberus | 1950
-9 | Zicadas | 1550
-10 | horokey | 1400
-11 | VV3N33DM0RFL4G$ | 1335
+9 | VV3N33DM0RFL4G$ | 1885
+10 | Zicadas | 1550
+11 | horokey | 1400
 12 | foobar | 1300
 13 | еёйное именя | 1200
 14 | Half-bowls of soup | 1125
