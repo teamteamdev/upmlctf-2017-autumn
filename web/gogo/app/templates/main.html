@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GoGo Security Systems</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+		    <h1>Добро пожаловать, Admin</h1>
+            <p>Наша система заметила, что вы были оффлайн много времени. В целях безопасности аккаунт заблокирован</p>
+            <p>Введите пароль для разблокировки:</p>
+            <!--
+            if my_super_hash(password) == "2af9b1ba42dc5eb01743e6b3759b6e4b":
+            -->
+		    <form class="form" method="post" action="/process/">
+			    <input type="password" name="password" placeholder="Password">
+			    <button type="submit" id="login-button">Вход</button>
+		    </form>
+	    </div>
+
+	    <ul class="bg-bubbles">
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+	    </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/static/index.js"></script>
+</body>
+</html>
+
